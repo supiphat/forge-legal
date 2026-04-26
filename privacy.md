@@ -67,7 +67,7 @@ These providers process the request to generate a response and may retain the re
 When you subscribe, payment is processed by [Apple](https://www.apple.com/legal/privacy/) via StoreKit. Apple shares with us only the information needed to validate your subscription:
 
 - A StoreKit transaction identifier.
-- Subscription tier (Pro or Elite) and expiration date.
+- Subscription tier (Pro) and expiration date.
 
 We never see your name, billing address, card number, or Apple ID.
 
@@ -116,7 +116,7 @@ If the PDPC issues binding adequacy determinations or model contractual clauses 
 ## 5. Why We Process This Information
 
 - **To run the App:** workout logging, progressive overload calculations, progress views, streak tracking — all of this happens on your device.
-- **To provide AI-powered features:** if you have a Pro or Elite subscription and use AI features, we send the minimum context needed to generate a useful response.
+- **To provide AI-powered features:** if you have a Pro subscription and use AI features, we send the minimum context needed to generate a useful response.
 - **To enforce fair usage:** the anonymous user ID is used solely to rate-limit AI calls per install, preventing abuse.
 - **To validate subscriptions:** we check StoreKit entitlements to determine your access tier.
 

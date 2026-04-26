@@ -63,9 +63,8 @@ You may not:
 ### 4.1 Free Tier
 The App is free to install and use for core features: workout logging, progressive overload, streaks, volume and PR tracking, and template-based programs.
 
-### 4.2 Paid Tiers
+### 4.2 Paid Tier
 - **Forge Pro** ($9.99/month or $59.99/year): unlocks AI program generation, AI weekly check-in adaptation, in-workout coach cards, muscle heatmap, and imbalance warnings.
-- **Forge Elite** ($19.99/month or $99.99/year): includes everything in Pro plus Recovery Intelligence, PR Forecasting, and Advanced Periodization (rolling out in updates).
 
 Prices are listed in US Dollars. Apple charges in your local currency (Thai Baht for Thai users) at Apple's published exchange rate. The price displayed in-app at the time of purchase is authoritative.
 
@@ -81,7 +80,7 @@ You can cancel anytime via **Settings → [Your Name] → Subscriptions → Forg
 Refunds are processed by **Apple** under [Apple's refund policy](https://support.apple.com/HT204084). We do not issue refunds directly because we never receive your payment — Apple is the merchant of record. If you believe you are entitled to a refund under Thai consumer-protection law that Apple has refused, contact us and we will assist where reasonably possible.
 
 ### 4.6 Subscription Changes
-Upgrading from Pro to Elite (or vice versa), or switching between monthly and annual, is handled through StoreKit. Apple prorates the change.
+Switching between monthly and annual Pro is handled through StoreKit. Apple prorates the change.
 
 ---
 
