@@ -12,4 +12,4 @@ Legal documents for the Forge iOS app.
 
 Last updated: 2026-04-26.
 
-For support, contact `[support@example.com]`.
+For support, contact supiphatk17@gmail.com.
