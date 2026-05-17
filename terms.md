@@ -1,7 +1,7 @@
 # Terms of Service — Forge
 
-**Last updated:** 2026-04-26
-**Effective:** 2026-04-26
+**Last updated:** 2026-05-17
+**Effective:** 2026-05-17
 
 These Terms of Service ("Terms") govern your use of Forge ("the App"), an iOS application provided by **Supiphat Kasetrsuwan**, sole proprietor, operating from Thailand ("we", "us"). By installing or using the App, you agree to these Terms. If you don't agree, don't use the App.
 
@@ -127,7 +127,7 @@ The App, its source code, design, content, and trademarks are owned by Supiphat 
 
 The App relies on services we do not control:
 
-- **Apple** (App Store, StoreKit, CloudKit, HealthKit) — governed by Apple's terms.
+- **Apple** (App Store, StoreKit, HealthKit) — governed by Apple's terms.
 - **Supabase** — backend hosting and authentication.
 - **Anthropic** and/or **OpenAI** — AI providers.
 

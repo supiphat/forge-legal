@@ -1,7 +1,7 @@
 # Privacy Policy — Forge
 
-**Last updated:** 2026-04-26
-**Effective:** 2026-04-26
+**Last updated:** 2026-05-17
+**Effective:** 2026-05-17
 
 This Privacy Policy describes how Forge ("the App", "we", "us") handles information when you use our iOS application. Forge is operated as a sole proprietorship by Supiphat Kasetrsuwan, located in Thailand. We've built the App to do as little as possible with your data. Read on to see what that means.
 
@@ -11,7 +11,7 @@ This Privacy Policy describes how Forge ("the App", "we", "us") handles informat
 
 - We don't collect your name, email address, phone number, or location.
 - We don't track you across other apps or websites. There are no advertising or analytics SDKs.
-- Your workout data lives in your private iCloud container (managed by Apple) and on your device. We do not have access to it.
+- Your workout data lives on your device. We do not have access to it, and v1.0 does not sync across devices.
 - When you use AI features, we send anonymized snapshots of your workout data to our backend server, which forwards them to a third-party AI provider (Anthropic and/or OpenAI). These snapshots contain training inputs only — no identity attached.
 - Subscriptions are processed by Apple via StoreKit. We never see your payment details.
 
@@ -37,9 +37,9 @@ For users in Thailand, this notice is provided in accordance with the **Personal
 - **Program data:** training program structure, progress through weeks, exercise modifications.
 - **Onboarding inputs:** training goal, experience level, available equipment, training days per week, and any injuries you report.
 - **Check-in inputs:** weekly fatigue and soreness scores, optional free-text notes.
-- **Health data (HealthKit):** if you grant HealthKit permission, the App writes a workout record to your Apple Health on session completion. Forge does not read other Health data in v1.0.
+- **Health data (HealthKit):** if you grant HealthKit permission, the App (a) writes a workout record to your Apple Health on session completion, and (b) reads your most recent body-mass entry to scale starting weights and to compute volume for bodyweight exercises. The App does not read any other Health categories (HRV, sleep, heart rate, nutrition, etc.) in v1.0.
 
-All of the above is stored in [SwiftData](https://developer.apple.com/documentation/swiftdata) on your device and synchronized to your private [iCloud](https://www.apple.com/icloud/) container via Apple's CloudKit. We have no access to your iCloud container — it's managed by Apple and accessible only to you and to apps you authorize.
+All of the above is stored in [SwiftData](https://developer.apple.com/documentation/swiftdata) on your device. **Forge v1.0 does not synchronize your workout data across devices** — it lives on the device where you installed it. Cross-device sync may be introduced in a future update; this Policy will be updated before that happens.
 
 ### 2.2 Sent to Our Backend (Supabase)
 
@@ -128,7 +128,7 @@ We do not process your information for advertising, profiling, sale, or analytic
 
 We do not sell, rent, or trade your information to anyone. We share information only:
 
-- **With Apple,** as part of using StoreKit, CloudKit, and HealthKit. Apple's privacy policy applies to those services.
+- **With Apple,** as part of using StoreKit and HealthKit. Apple's privacy policy applies to those services.
 - **With our AI providers** (Anthropic and/or OpenAI), as described in §2.3.
 - **With law enforcement,** only if compelled by legally binding process under Thai law and only to the extent required.
 
@@ -138,8 +138,7 @@ We do not embed advertising SDKs, analytics SDKs, or third-party trackers.
 
 ## 7. Data Retention
 
-- **On-device data** is retained as long as the App is installed. Uninstalling the App removes all on-device data.
-- **iCloud data** is retained per your iCloud account settings. You can delete it at any time via Settings → Apple ID → iCloud → Manage Storage → Forge.
+- **On-device data** is retained as long as the App is installed. Uninstalling the App removes all on-device data. Because v1.0 does not sync, no copy of your workout data exists outside the device.
 - **Server-side rate-limit rows:** retained for 30 days, then automatically deleted.
 - **AI provider data:** retained per the provider's policy.
 
