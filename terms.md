@@ -72,7 +72,7 @@ Prices are listed in US Dollars. Apple charges in your local currency (Thai Baht
 A 14-day free trial of Pro features begins at onboarding. You will not be charged if you cancel before the trial ends. If you do not cancel, your subscription will start automatically at the end of the trial at the price displayed at signup.
 
 ### 4.4 Auto-Renewal
-Subscriptions auto-renew at the end of each billing period (monthly or annual) unless cancelled at least 24 hours before the renewal date. Renewal charges are applied to the Apple ID associated with your installation.
+Your subscription automatically renews at the end of each billing period (monthly or annual) at the then-current price unless auto-renew is turned off at least **24 hours before the end of the current period**. Your Apple ID will be charged for renewal within 24 hours prior to the end of the current period. You can manage your subscription and turn off auto-renew at any time via **Settings → [Your Name] → Subscriptions → Forge** on your iOS device. No refund is issued for the unused portion of any billing period.
 
 ### 4.5 Cancellation and Refunds
 You can cancel anytime via **Settings → [Your Name] → Subscriptions → Forge → Cancel Subscription** on your iOS device. Cancellation takes effect at the end of the current billing period; you retain access until then.
@@ -86,14 +86,37 @@ Switching between monthly and annual Pro is handled through StoreKit. Apple pror
 
 ## 5. AI-Generated Content
 
-The App uses third-party large language models (Anthropic Claude and/or OpenAI GPT) to generate program structures and check-in adaptations. AI output:
+The App uses third-party large language models — currently **Anthropic Claude** and/or **OpenAI GPT** — to generate program structures, weekly check-in adaptations, and in-workout coach card suggestions ("AI Output"). AI Output is generated from the inputs you provide (goals, experience, equipment, injuries, completed sets) and from general training principles encoded in the models.
 
-- Is generated based on your inputs and general training principles.
-- May contain errors, omissions, or suggestions that are unsuitable for your specific situation.
-- Is not reviewed by a qualified human coach before delivery.
-- Should not be relied upon as a substitute for professional advice from a strength coach, physical therapist, or healthcare provider.
+### 5.1 Known limitations of AI Output
 
-You agree to review AI-generated suggestions critically before acting on them and to skip or modify any suggestion that doesn't feel right for your body, equipment, or experience level.
+You acknowledge and agree that AI Output:
+
+- **May contain errors or inaccuracies.** Large language models can produce plausible-sounding but factually wrong content. This is widely known and inherent to the technology.
+- **May "hallucinate."** AI Output may include exercise names, technique cues, or recommendations that are not real, not safe, or not appropriate for your situation.
+- **Has no awareness of medical conditions, medications, or injuries you have not disclosed.** AI Output is based solely on the inputs you give it.
+- **May reflect training-data bias** toward certain populations, training modalities, or body types. AI Output may not be suitable for older lifters, lifters with disabilities, pregnant or postpartum lifters, or lifters with specific conditions.
+- **Cannot replace coach observation.** AI Output cannot watch you lift, evaluate your form, detect compensations, or judge whether a given weight is genuinely safe for you on a given day.
+- **Has limited reasoning** about complex situations such as multi-injury programming, advanced periodization, or competition prep.
+- **Has no emotional or motivational context.** AI Output cannot tell when you are exhausted, stressed, recovering from an illness, or in a poor headspace to push.
+- **Depends entirely on the quality of your inputs.** Inaccurate goals, experience self-rating, or injury disclosure will produce inaccurate AI Output.
+
+### 5.2 You are responsible for judging AI Output
+
+**AI OUTPUT IS A TOOL AND A SUPPLEMENT, NOT A REPLACEMENT FOR INDEPENDENT JUDGMENT OR PROFESSIONAL ADVICE.** You are solely responsible for deciding whether to follow any AI suggestion. You agree to:
+
+- Review every AI Output critically before acting on it.
+- Skip, modify, or reduce any suggestion that doesn't feel right for your body, equipment, or experience level on a given day.
+- Consult a qualified strength coach, physical therapist, or healthcare provider for any decision that warrants professional input.
+- Treat AI Output as an *informational starting point*, not as binding instruction.
+
+### 5.3 Liability for AI Output
+
+Subject to §11 (Limitation of Liability) and to the carve-outs we cannot exclude under Thai law (gross negligence, willful misconduct, bodily injury caused by our negligence, and non-derogable consumer-protection statutes), **we bear no additional liability arising from your use of AI Output beyond the cap set in §11.** The fact that AI Output is generated by third-party models we do not train or control is part of the bargain you accept when subscribing to Forge Pro.
+
+### 5.4 Human review on request
+
+If you believe a specific AI Output materially misled you, you may request human review of that suggestion by emailing supiphatk17@gmail.com. We will respond within 30 days with our assessment and, where appropriate, a corrected suggestion or a refund of the affected billing period at our discretion. This is in addition to your statutory rights under §15.
 
 ---
 
@@ -151,7 +174,7 @@ Where Thai consumer-protection law gives you statutory warranties or rights that
 
 ## 11. Limitation of Liability
 
-**TO THE MAXIMUM EXTENT PERMITTED BY THAI LAW**, our total liability for any claim arising out of or related to the App is limited to the greater of (a) the amount you paid us via Apple in the 12 months preceding the claim, or (b) **USD $50** (or the THB equivalent at the date of payment).
+**TO THE MAXIMUM EXTENT PERMITTED BY THAI LAW**, our total liability for any claim arising out of or related to the App is limited to the greater of (a) the amount you paid us via Apple in the 12 months preceding the claim, or (b) **USD $100** (or the THB equivalent at the date of payment).
 
 We are not liable for indirect, incidental, special, consequential, or punitive damages, including loss of profits, data, or training progress, even if advised of the possibility of such damages.
 
@@ -231,7 +254,100 @@ These Terms are provided in English. A Thai-language version may be made availab
 - **General / legal:** supiphatk17@gmail.com
 - **Support:** supiphatk17@gmail.com
 - **Provider:** Supiphat Kasetrsuwan, Thailand
+- **Data Protection Officer:** Supiphat Kasetrsuwan, supiphatk17@gmail.com (acting DPO under PDPA §41 / GDPR Art 37–39)
 
 ---
 
-*These Terms are provided as a starting point grounded in Thai law (PDPA, Consumer Protection Act, Civil and Commercial Code, Computer Crime Act, Electronic Transactions Act). They are NOT legal advice. Have a Thai-qualified lawyer review before publishing — especially the §11 liability cap, §16 forum and arbitration clauses, and the §17 language clause if you intend to market to Thai-language users.*
+## 19. Region-Specific Terms
+
+The provisions in this §19 apply **in addition to** §§1–18 above and **prevail** to the extent of any inconsistency for users domiciled in the listed region. Nothing here reduces rights granted under §§1–18 or under the regional law itself.
+
+### 19.1 European Economic Area (EEA), United Kingdom, and Switzerland
+
+If you are a resident or domiciled in the EEA, the United Kingdom, or Switzerland, the following apply:
+
+**Mandatory consumer rights.** The non-derogable rights granted by the **EU Consumer Rights Directive 2011/83/EU**, the **Unfair Contract Terms Directive 93/13/EEC**, the **Digital Content Directive 2019/770/EU**, the **UK Consumer Rights Act 2015**, and your member state's implementing legislation apply regardless of any contrary provision in these Terms. The court in your member state of habitual residence has jurisdiction over any consumer dispute.
+
+**Governing law for consumers.** Notwithstanding §16.1, where you are a consumer (a natural person acting outside your trade, business, craft, or profession), the law of your member state of habitual residence governs any matter that is the subject of a non-derogable consumer-protection rule of that state.
+
+**Forum for consumers.** Notwithstanding §16.2, you may bring proceedings in the courts of your member state of habitual residence. We will only sue you in the courts of your member state of habitual residence.
+
+**Subscription cancellation.** You may cancel a subscription within 14 days of purchase under Article 9 of the EU Consumer Rights Directive (the "withdrawal period"). Where the App's paid features have begun to be supplied with your prior express consent and acknowledgement that the right of withdrawal is lost once performance has fully begun, the withdrawal right may not apply (Article 16(m) CRD). Apple's refund flow remains the operational route.
+
+**Mandatory disclosures (UK Consumer Rights Act §49 / DCD Art 8).** Digital content supplied by us must be of satisfactory quality, fit for purpose, and as described. Where the content fails these standards, you are entitled to a price reduction or refund as set out in the relevant statute.
+
+**Liability.** Notwithstanding §11, our liability cannot be limited or excluded:
+
+- For death or personal injury caused by our negligence
+- For fraud or fraudulent misrepresentation
+- For breaches of statutory implied terms relating to quality and fitness of digital content
+- For any liability that cannot be excluded under your member state's mandatory consumer-protection law
+
+**Unfair contract terms.** Standard-form terms in these Terms that are deemed "unfair" under your member state's transposition of Directive 93/13/EEC (or, in the UK, under the Consumer Rights Act 2015 Part 2) are not binding on you. The remainder of the Terms continues in force.
+
+### 19.2 California (United States)
+
+If you are a California resident, the following apply under the **California Consumer Privacy Act (CCPA), as amended by the California Privacy Rights Act (CPRA)** and other California consumer-protection statutes:
+
+**Consumer rights.** You have the rights to know, access, delete, correct, and opt out described in the Privacy Policy §13.2.
+
+**No sale or sharing of personal information.** We do not sell your personal information, and we do not share it for cross-context behavioral advertising as defined in Civil Code §1798.140(ah). No "Do Not Sell or Share My Personal Information" link is required, but we will treat any opt-out request as honored.
+
+**Shine the Light (§1798.83).** We do not disclose your personal information to third parties for those parties' direct-marketing purposes.
+
+**Subscription auto-renewal disclosure (Business & Professions Code §17602).** Before your purchase, the price, billing frequency, and cancellation method are presented to you on the Apple StoreKit purchase confirmation sheet. You may cancel at any time via **Settings → [Your Name] → Subscriptions → Forge** on your iOS device. Apple is the merchant of record; refund requests are processed by Apple under Apple's published refund policy.
+
+**California-specific liability.** Notwithstanding §11, where applicable, our liability for personal injury caused by our negligence cannot be limited under California Civil Code §1668.
+
+### 19.3 Other US States
+
+If you are a resident of any US state with a comprehensive consumer-privacy law (currently including Colorado, Connecticut, Delaware, Indiana, Iowa, Kentucky, Maryland, Minnesota, Montana, Nebraska, New Hampshire, New Jersey, Oregon, Rhode Island, Tennessee, Texas, Utah, Virginia, or another state with substantively equivalent law) you have the consumer-privacy rights granted by your state's statute. Procedurally these rights are exercised through the same channels described for California users in §13.2 of the Privacy Policy, with the response timelines, exemptions, and appeal rights of your state's statute applied.
+
+**State subscription auto-renewal laws.** Auto-renewal of paid subscriptions is disclosed through Apple's StoreKit purchase confirmation sheet at point of sale, in compliance with the respective state law (e.g., New York General Business Law §527-a, Illinois Automatic Contract Renewal Act 815 ILCS 601, etc.).
+
+### 19.4 Canada (excluding Quebec)
+
+If you are domiciled in a Canadian province or territory other than Quebec, the **Personal Information Protection and Electronic Documents Act (PIPEDA)** governs our processing of your personal information. Your provincial Consumer Protection Act may grant additional rights.
+
+**Liability.** Notwithstanding §11, our liability cannot be excluded:
+
+- For death or personal injury caused by our negligence
+- For breach of mandatory statutory consumer guarantees under provincial law
+
+**Forum.** You may bring consumer-protection proceedings in the court of your province of residence.
+
+**Quebec is excluded** from Forge's territory list for v1.0 (Charter of the French Language requirements + Law 25 are not yet supported). If you reside in Quebec, Forge is not currently offered to you and any account created in error will be deleted on request.
+
+### 19.5 Australia
+
+If you are an Australian resident, **non-excludable consumer guarantees** under the **Australian Consumer Law (Schedule 2 of the Competition and Consumer Act 2010)** apply, including:
+
+- Guarantees as to acceptable quality (§54)
+- Guarantees as to fitness for any disclosed purpose (§55)
+- Guarantees as to performance of services with due care and skill (§60)
+
+**Liability for these guarantees cannot be limited or excluded** by these Terms. Where we provide services and the services fail these guarantees, you are entitled to remedies under Part 5-4 of the ACL.
+
+**Forum.** You may bring proceedings in the court of your state or territory of residence.
+
+**Privacy.** The Australian **Privacy Act 1988** and the Australian Privacy Principles (APPs) apply to our processing of your personal information. The **Notifiable Data Breaches scheme** applies — we will notify the **Office of the Australian Information Commissioner (OAIC)** and affected individuals as required.
+
+### 19.6 New Zealand
+
+If you are a New Zealand resident, the **Privacy Act 2020** governs our processing of your personal information. The **Fair Trading Act 1986** and the **Consumer Guarantees Act 1993** grant non-excludable consumer guarantees substantially equivalent to those in §19.5.
+
+### 19.7 Singapore
+
+If you are a Singapore resident, the **Personal Data Protection Act 2012 (SG-PDPA)** governs our processing of your personal information. The **Consumer Protection (Fair Trading) Act (CPFTA)** grants non-excludable rights to a remedy for unfair practices. You may lodge complaints with the **Personal Data Protection Commission Singapore (PDPC)**.
+
+### 19.8 South Africa
+
+If you are a South African resident, the **Protection of Personal Information Act, 2013 (POPIA)** governs our processing of your personal information. The **Consumer Protection Act, 2008 (CPA-ZA)** grants non-excludable consumer rights. You may lodge complaints with the **Information Regulator**.
+
+### 19.9 Territories Not Listed
+
+Forge is currently distributed only in the territories listed in `docs/MARKETS.md` §2. If you are accessing Forge from a territory not in that list, your access may be unauthorized and you accept all consequences of that unauthorized access including the application of these Terms under their default governing-law and forum clauses (§16).
+
+---
+
+*These Terms are provided grounded in Thai law (PDPA, Consumer Protection Act, Civil and Commercial Code, Computer Crime Act, Electronic Transactions Act, Unfair Contract Terms Act) with region-specific addenda for the EU/EEA/UK, USA, Canada, Australia, New Zealand, Singapore, and South Africa. They are NOT legal advice. Have a Thai-qualified lawyer (and ideally counsel in any region of material exposure) review before publishing — especially the §11 liability cap, §16 forum and arbitration clauses, the §17 language clause, and the §19 regional addenda.*
