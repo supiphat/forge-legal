@@ -1,7 +1,7 @@
 # Terms of Service — Forge
 
-**Last updated:** 2026-05-17
-**Effective:** 2026-05-17
+**Last updated:** 2026-06-11
+**Effective:** 2026-06-11
 
 These Terms of Service ("Terms") govern your use of Forge ("the App"), an iOS application provided by **Supiphat Kasetrsuwan**, sole proprietor, operating from Thailand ("we", "us"). By installing or using the App, you agree to these Terms. If you don't agree, don't use the App.
 
@@ -86,7 +86,7 @@ Switching between monthly and annual Pro is handled through StoreKit. Apple pror
 
 ## 5. AI-Generated Content
 
-The App uses third-party large language models — currently **Anthropic Claude** and/or **OpenAI GPT** — to generate program structures, weekly check-in adaptations, and in-workout coach card suggestions ("AI Output"). AI Output is generated from the inputs you provide (goals, experience, equipment, injuries, completed sets) and from general training principles encoded in the models.
+The App uses third-party large language models — currently **Anthropic Claude** — to generate program structures, weekly check-in adaptations, and in-workout coach card suggestions ("AI Output"). AI Output is generated from the inputs you provide (goals, experience, equipment, injuries, completed sets) and from general training principles encoded in the models.
 
 ### 5.1 Known limitations of AI Output
 
@@ -152,7 +152,7 @@ The App relies on services we do not control:
 
 - **Apple** (App Store, StoreKit, HealthKit) — governed by Apple's terms.
 - **Supabase** — backend hosting and authentication.
-- **Anthropic** and/or **OpenAI** — AI providers.
+- **Anthropic** — AI provider.
 
 We are not responsible for outages, data loss, or behavior of these third-party services beyond reasonable diligence in selecting them.
 

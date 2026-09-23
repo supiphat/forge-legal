@@ -1,7 +1,7 @@
 # Privacy Policy — Forge
 
-**Last updated:** 2026-05-17
-**Effective:** 2026-05-17
+**Last updated:** 2026-06-11
+**Effective:** 2026-06-11
 
 This Privacy Policy describes how Forge ("the App", "we", "us") handles information when you use our iOS application. Forge is operated as a sole proprietorship by Supiphat Kasetrsuwan, located in Thailand. We've built the App to do as little as possible with your data. Read on to see what that means.
 
@@ -13,7 +13,7 @@ Before the legal detail below, five principles that shape every decision we make
 
 1. **Your workouts stay on your device.** Sets, reps, weights, programs, check-ins — all stored locally in SwiftData on your iPhone. v1.0 does not sync across devices. We have no copy.
 2. **AI calls are anonymized.** When you use AI features, we send the workout context the model needs and nothing else. No name, no email, no Apple ID, no device fingerprint. Just an anonymous per-install identifier so we can rate-limit abuse.
-3. **We name every processor.** Anthropic, OpenAI, Apple, Supabase — listed below by name, location, and what they receive. No mystery third parties.
+3. **We name every processor.** Anthropic, Apple, Supabase — listed below by name, location, and what they receive. No mystery third parties.
 4. **You can export everything or delete everything, in two taps.** Settings → Privacy → Export My Data (JSON) or Delete My Data (irreversible). No emailing us, no waiting weeks.
 5. **No advertising, no analytics, no tracking.** No SDKs, no trackers, no profiles built on you for sale. The App earns its keep from subscriptions, not from your data.
 
@@ -24,7 +24,7 @@ Before the legal detail below, five principles that shape every decision we make
 - We don't collect your name, email address, phone number, or location.
 - We don't track you across other apps or websites. There are no advertising or analytics SDKs.
 - Your workout data lives on your device. We do not have access to it, and v1.0 does not sync across devices.
-- When you use AI features, we send anonymized snapshots of your workout data to our backend server, which forwards them to a third-party AI provider (Anthropic and/or OpenAI). These snapshots contain training inputs only — no identity attached.
+- When you use AI features, we send anonymized snapshots of your workout data to our backend server, which forwards them to a third-party AI provider (Anthropic). These snapshots contain training inputs only — no identity attached.
 - Subscriptions are processed by Apple via StoreKit. We never see your payment details.
 
 ---
@@ -49,7 +49,7 @@ For users in Thailand, this notice is provided in accordance with the **Personal
 - **Program data:** training program structure, progress through weeks, exercise modifications.
 - **Onboarding inputs:** training goal, experience level, available equipment, training days per week, and any injuries you report.
 - **Check-in inputs:** weekly fatigue and soreness scores, optional free-text notes.
-- **Health data (HealthKit):** if you grant HealthKit permission, the App (a) writes a workout record to your Apple Health on session completion, and (b) reads your most recent body-mass entry to scale starting weights and to compute volume for bodyweight exercises. The App does not read any other Health categories (HRV, sleep, heart rate, nutrition, etc.) in v1.0.
+- **Health data (HealthKit):** if you grant HealthKit permission, the App (a) writes a workout record to your Apple Health on session completion, (b) reads your most recent body-mass entry to scale starting weights and to compute volume for bodyweight exercises, and (c) reads your biological sex characteristic once during onboarding to scale baseline starting weights. Each read is covered by its own per-type permission in the iOS HealthKit consent sheet — you can grant or deny each independently. Both values are processed **on your device only**: they are never sent to our backend or to any AI provider. The App does not read any other Health categories (HRV, sleep, heart rate, nutrition, etc.) in v1.0.
 
 All of the above is stored in [SwiftData](https://developer.apple.com/documentation/swiftdata) on your device. **Forge v1.0 does not synchronize your workout data across devices** — it lives on the device where you installed it. Cross-device sync may be introduced in a future update; this Policy will be updated before that happens.
 
@@ -67,14 +67,13 @@ We do not store the request payload server-side after the AI response is returne
 
 ### 2.3 Sent to Third-Party AI Providers
 
-The AI request payloads above are forwarded from our backend to one or both of:
+The AI request payloads above are forwarded from our backend to:
 
 - **Anthropic PBC** ([Claude](https://www.anthropic.com/privacy)) — processes payloads in the United States. Per Anthropic's published API policy, prompt and completion content is retained for up to **30 days** for trust-and-safety review and is **not used to train Anthropic's models**.
-- **OpenAI OpCo LLC** ([GPT](https://openai.com/policies/privacy-policy)) — processes payloads in the United States. Per OpenAI's published API policy, API request and response content is retained for up to **30 days** for abuse monitoring and is **not used to train OpenAI's models** by default.
 
-We do not pass identifying information (your name, email, Apple ID, anonymous Forge user ID, etc.) to these providers — only the workout context relevant to the request. The forwarded payload contains no values that would, on their own, identify you to either provider.
+We do not pass identifying information (your name, email, Apple ID, anonymous Forge user ID, etc.) to this provider — only the workout context relevant to the request. The forwarded payload contains no values that would, on their own, identify you to the provider.
 
-If Anthropic or OpenAI updates their published retention or training policies, we will update this Policy to reflect the change. If you are concerned about US-based processing of your data, you can avoid all AI calls by using only the free tier of the App (workout logging, deterministic progressive overload, streaks, volume/PR tracking, template programs).
+If Anthropic updates its published retention or training policies, we will update this Policy to reflect the change. If you are concerned about US-based processing of your data, you can avoid all AI calls by using only the free tier of the App (workout logging, deterministic progressive overload, streaks, volume/PR tracking, template programs).
 
 ### 2.4 Subscription Information (Processed by Apple)
 
@@ -106,6 +105,7 @@ Under PDPA §24, we rely on the following lawful bases:
 | Logging anonymous rate-limit rows to prevent automated abuse | §24(5) **legitimate interest** — protecting the integrity and cost of the AI service |
 | Processing StoreKit subscription receipts to grant tier access | §24(3) **performance of a contract** |
 | Writing workout records to your Apple Health | §24(1) **consent** — you grant HealthKit permission via the iOS system prompt |
+| Reading your HealthKit body mass and biological sex characteristic to scale baseline starting weights (on-device only; never transmitted) | §24(1) **consent** — you grant each per-type read permission via the iOS HealthKit consent sheet |
 
 We do not rely on consent for processing of the anonymous data described in §2.2 or §2.3 because it is not "personal data" under PDPA §6 — there is no identifiable natural person attached to the anonymous user ID.
 
@@ -116,7 +116,7 @@ We do not rely on consent for processing of the anonymous data described in §2.
 Your data leaves Thailand in two ways:
 
 - **Backend storage** in Supabase Oceania (Sydney, Australia). Australia has a data-protection regime substantially similar to PDPA.
-- **AI inference** at Anthropic and/or OpenAI in the United States.
+- **AI inference** at Anthropic in the United States.
 
 For these transfers we rely on:
 
@@ -143,7 +143,7 @@ We do not process your information for advertising, profiling, sale, or analytic
 We do not sell, rent, or trade your information to anyone. We share information only:
 
 - **With Apple,** as part of using StoreKit and HealthKit. Apple's privacy policy applies to those services.
-- **With our AI providers** (Anthropic and/or OpenAI), as described in §2.3.
+- **With our AI provider** (Anthropic), as described in §2.3.
 - **With law enforcement,** only if compelled by legally binding process under Thai law and only to the extent required.
 
 We do not embed advertising SDKs, analytics SDKs, or third-party trackers.
@@ -234,10 +234,10 @@ If you are in the EEA, the United Kingdom, or Switzerland, the **General Data Pr
 | Workout logging and overload calculations | 6(1)(b) — necessary for performance of the contract you entered when subscribing to the App | Core service |
 | AI program generation, weekly check-in adaptation, in-workout coach cards | 6(1)(b) for paid users, or 6(1)(a) explicit consent at first AI use | Combined with Art 49 derogation for US transfers (see §13.1 below) |
 | Rate-limit logging (anonymous user ID + endpoint + timestamp) | 6(1)(f) — legitimate interest (anti-abuse, fair-use enforcement) | Balancing test documented in our internal RoPA |
-| HealthKit body-mass read | 6(1)(a) — your explicit consent given via the iOS HealthKit permission prompt | Consent can be withdrawn anytime in iOS Settings → Privacy & Security → Health |
+| HealthKit reads (body mass; biological sex characteristic) — on-device only, never transmitted | 6(1)(a) — your explicit consent given per data type via the iOS HealthKit permission prompt | Consent can be withdrawn anytime in iOS Settings → Privacy & Security → Health |
 | Subscription/payment data (handled by Apple) | 6(1)(b) — performance of contract | Apple is the merchant of record |
 
-**Special-category data (Article 9).** Body-weight readings via HealthKit may, in combination with other health context, constitute "data concerning health." We process such data only on the basis of Art 9(2)(a) — your explicit consent, given through the iOS HealthKit permission prompt — and only for the in-app fitness purposes described in §5.
+**Special-category data (Article 9).** Body-weight and biological-sex readings via HealthKit may, in combination with other health context, constitute "data concerning health." Both stay on your device and are never transmitted to us or to any third party. We process such data only on the basis of Art 9(2)(a) — your explicit consent, given through the iOS HealthKit permission prompt — and only for the in-app fitness purposes described in §5.
 
 **Your rights under GDPR (Articles 15–22).**
 
@@ -252,12 +252,12 @@ If you are in the EEA, the United Kingdom, or Switzerland, the **General Data Pr
 
 **Automated decision-making (Article 22).** Forge's AI-generated training programs and adaptations are *suggestions*, not binding decisions. They do not produce legal effects, do not affect your access to goods or services, and they require your action (logging a set, accepting a weight increase) to take effect. Article 22 protections nonetheless apply: you have the right to obtain human review of any AI-generated suggestion, to contest it, and to express your view. You may exercise this right by emailing supiphatk17@gmail.com — we will manually review any disputed suggestion within 30 days.
 
-**International data transfers (Article 49 derogation).** Where you use AI features, anonymized workout context is transferred to **Anthropic PBC** and **OpenAI OpCo LLC** in the **United States**. The United States has not been determined adequate by the EU Commission for the purposes of GDPR Art 45. We rely on:
+**International data transfers (Article 49 derogation).** Where you use AI features, anonymized workout context is transferred to **Anthropic PBC** in the **United States**. The United States has not been determined adequate by the EU Commission for the purposes of GDPR Art 45. We rely on:
 
 - **Article 49(1)(a)** — your explicit consent, given at the paywall conversion point, after being informed of the transfer's nature, the recipient countries, the absence of an adequacy decision, and the possible risks; AND
 - **Article 49(1)(b)** — the transfer is necessary for performance of the contract you entered when subscribing to Forge Pro.
 
-We do not transfer special-category data internationally. We have reviewed Anthropic's and OpenAI's published data-processing agreements and confirmed their use of Standard Contractual Clauses (SCCs) for their own international transfers, providing belt-and-suspenders safeguards.
+We do not transfer special-category data internationally. We have reviewed Anthropic's published data-processing agreement and confirmed its use of Standard Contractual Clauses (SCCs) for its own international transfers, providing belt-and-suspenders safeguards.
 
 **Right to lodge a complaint (Article 77).** If you believe our processing violates GDPR or UK GDPR, you may lodge a complaint with:
 
@@ -266,7 +266,7 @@ We do not transfer special-category data internationally. We have reviewed Anthr
 - The **Swiss Federal Data Protection and Information Commissioner (FDPIC)** at `edoeb.admin.ch` (Switzerland)
 - The **Data Protection Commission (DPC) of Ireland** as our lead supervisory authority for EU one-stop-shop purposes, given Ireland is the EEA territory where we have material processing relationships (cross-border via Apple Ireland and Anthropic Ireland Limited)
 
-**Retention.** On-device data: as long as you keep the App installed (you can erase anytime via Settings → Privacy → Delete My Data). Server-side rate-limit rows: 30 days. AI provider data: per provider policy (Anthropic deletes prompts after 30 days unless retained under enterprise terms; OpenAI policy as published).
+**Retention.** On-device data: as long as you keep the App installed (you can erase anytime via Settings → Privacy → Delete My Data). Server-side rate-limit rows: 30 days. AI provider data: per provider policy (Anthropic deletes prompts after 30 days unless retained under enterprise terms).
 
 **Breach notification (Article 33–34).** We will notify the competent supervisory authority within 72 hours of becoming aware of a personal-data breach affecting EEA/UK users, and notify affected users where the breach poses a high risk to their rights and freedoms.
 
@@ -290,7 +290,7 @@ If you are a California resident, the **California Consumer Privacy Act**, as am
 
 **Categories of sources.** Directly from you via in-app input; via Apple HealthKit with your permission; via Apple StoreKit (subscription state only).
 
-**Categories of third parties to whom we disclose.** Anthropic PBC (US) and OpenAI OpCo LLC (US) for AI inference; Supabase Inc. (Sydney, Australia) for backend hosting; Apple Inc. (US) for App Store and payment processing.
+**Categories of third parties to whom we disclose.** Anthropic PBC (US) for AI inference; Supabase Inc. (Sydney, Australia) for backend hosting; Apple Inc. (US) for App Store and payment processing.
 
 **Sale or sharing.** We do **not** sell personal information for monetary or other valuable consideration. We do **not** share personal information for cross-context behavioral advertising. No opt-out from "sale or sharing" is required, but if you wish to ensure no such disclosure, contact us.
 
