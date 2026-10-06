@@ -1,9 +1,9 @@
 # Terms of Service — Forge
 
-**Last updated:** 2026-06-11
-**Effective:** 2026-06-11
+**Last updated:** 2026-10-08
+**Effective:** 2026-10-08
 
-These Terms of Service ("Terms") govern your use of Forge ("the App"), an iOS application provided by **Supiphat Kasetrsuwan**, sole proprietor, operating from Thailand ("we", "us"). By installing or using the App, you agree to these Terms. If you don't agree, don't use the App.
+These Terms of Service ("Terms") govern your use of Forge ("the App"), an iOS application provided by **Supiphat Kasetrsuwan**, sole proprietor, operating from Thailand ("we", "us"). By installing or using the App, you agree to these Terms. If you don't agree, don't use the App. You must be 18 or older to use the App.
 
 These Terms are governed by the laws of the **Kingdom of Thailand** and form a legally binding contract under Thailand's **Electronic Transactions Act B.E. 2544 (2001)**.
 
@@ -13,9 +13,9 @@ These Terms are governed by the laws of the **Kingdom of Thailand** and form a l
 
 **FORGE IS A FITNESS TRACKING TOOL, NOT A MEDICAL DEVICE OR HEALTHCARE SERVICE.**
 
-The App provides workout logging, progressive overload calculations based on your inputs, and AI-generated training suggestions. It does not provide medical advice, diagnosis, or treatment. The App is not registered as a medical device with the **Thai Food and Drug Administration (อย.)** or any other regulatory body, and is not intended to be one.
+The App provides workout logging and weight and rep suggestions calculated from the sets you log. It does not provide medical advice, diagnosis, or treatment. The App is not registered as a medical device with the **Thai Food and Drug Administration (อย.)** or any other regulatory body, and is not intended to be one.
 
-**Before starting any new exercise program, including any program generated or modified by the App, consult a qualified healthcare professional**, especially if you:
+**Before starting any new exercise program, including any routine, template or suggestion provided by the App, consult a qualified healthcare professional**, especially if you:
 
 - Have a pre-existing medical condition (heart, blood pressure, diabetes, joint, musculoskeletal, neurological, etc.)
 - Are pregnant, postpartum, or have any condition affected by physical exertion
@@ -24,7 +24,7 @@ The App provides workout logging, progressive overload calculations based on you
 - Are taking any medication that affects exercise tolerance
 - Experience pain, dizziness, shortness of breath, or any unusual symptom during or after exercise
 
-**Stop exercising and seek medical attention immediately** if you experience chest pain, severe shortness of breath, dizziness, fainting, or any symptom that concerns you. The App's AI suggestions are based on the inputs you provide; they do not account for medical conditions, medications, prior injuries, or any factor not surfaced in onboarding or check-ins.
+**Stop exercising and seek medical attention immediately** if you experience chest pain, severe shortness of breath, dizziness, fainting, or any symptom that concerns you. The App's suggestions are calculated from the sets you log; they do not account for medical conditions, medications, prior injuries, or any factor you have not logged.
 
 **You assume all risk of injury** that may result from your use of the App, except to the extent such risk is the direct result of our gross negligence or willful misconduct (which Thai law does not permit us to disclaim — see §11).
 
@@ -53,7 +53,7 @@ You may not:
 - Modify, adapt, translate, or create derivative works of the App.
 - Remove or alter any proprietary notices.
 - Use the App to violate any law or regulation, including the **Computer Crime Act B.E. 2550 (2007)**, the **Personal Data Protection Act B.E. 2562 (2019)**, or any third-party right.
-- Use automated means to interact with the App's backend or AI services.
+- Use automated means to interact with the App's backend.
 - Attempt to circumvent rate limits, paywall gating, subscription enforcement, or any access control. Such circumvention may also constitute an offence under §7 of the Computer Crime Act.
 
 ---
@@ -61,15 +61,15 @@ You may not:
 ## 4. Subscriptions and Free Trial
 
 ### 4.1 Free Tier
-The App is free to install and use for core features: workout logging, progressive overload, streaks, volume and PR tracking, and template-based programs.
+The App is free to install and use for core features: logging workouts, your workout history and personal records, routines and the built-in templates, custom exercises, the rest timer and plate breakdowns, the weekly sets-per-muscle map on Home, iCloud sync, and data export and deletion. On the free tier, each set is prefilled with the numbers you logged last time.
 
 ### 4.2 Paid Tier
-- **Forge Pro** ($9.99/month or $59.99/year): unlocks AI program generation, AI weekly check-in adaptation, in-workout coach cards, muscle heatmap, and imbalance warnings.
+- **Forge Pro** ($9.99/month or $59.99/year): unlocks weight and rep Suggestions for your next session, each with the reason it was given; planned deload weeks and alerts when a lift has stalled; and muscle and strength analytics (which exercises each muscle's weekly sets came from, and estimated one-rep-max trends for each exercise).
 
 Prices are listed in US Dollars. Apple charges in your local currency (Thai Baht for Thai users) at Apple's published exchange rate. The price displayed in-app at the time of purchase is authoritative.
 
 ### 4.3 Free Trial
-A 14-day free trial of Pro features begins at onboarding. You will not be charged if you cancel before the trial ends. If you do not cancel, your subscription will start automatically at the end of the trial at the price displayed at signup.
+Where offered to eligible new subscribers, a 14-day free trial of Pro features begins when you confirm the subscription in Apple's purchase sheet. You will not be charged if you cancel before the trial ends. If you do not cancel, your subscription will start automatically at the end of the trial at the price displayed at signup.
 
 ### 4.4 Auto-Renewal
 Your subscription automatically renews at the end of each billing period (monthly or annual) at the then-current price unless auto-renew is turned off at least **24 hours before the end of the current period**. Your Apple ID will be charged for renewal within 24 hours prior to the end of the current period. You can manage your subscription and turn off auto-renew at any time via **Settings → [Your Name] → Subscriptions → Forge** on your iOS device. No refund is issued for the unused portion of any billing period.
@@ -77,52 +77,47 @@ Your subscription automatically renews at the end of each billing period (monthl
 ### 4.5 Cancellation and Refunds
 You can cancel anytime via **Settings → [Your Name] → Subscriptions → Forge → Cancel Subscription** on your iOS device. Cancellation takes effect at the end of the current billing period; you retain access until then.
 
-Refunds are processed by **Apple** under [Apple's refund policy](https://support.apple.com/HT204084). We do not issue refunds directly because we never receive your payment — Apple is the merchant of record. If you believe you are entitled to a refund under Thai consumer-protection law that Apple has refused, contact us and we will assist where reasonably possible.
+Refunds are processed by **Apple** under [Apple's refund policy](https://support.apple.com/en-us/118223). We do not issue refunds directly because we never receive your payment — Apple is the merchant of record. If you believe you are entitled to a refund under Thai consumer-protection law that Apple has refused, contact us and we will assist where reasonably possible.
 
 ### 4.6 Subscription Changes
-Switching between monthly and annual Pro is handled through StoreKit. Apple prorates the change.
+Switching between monthly and annual Pro is handled by Apple through your subscription settings. The switch takes effect at your next renewal date, under Apple's subscription rules.
 
 ---
 
-## 5. AI-Generated Content
+## 5. Training Suggestions
 
-The App uses third-party large language models — currently **Anthropic Claude** — to generate program structures, weekly check-in adaptations, and in-workout coach card suggestions ("AI Output"). AI Output is generated from the inputs you provide (goals, experience, equipment, injuries, completed sets) and from general training principles encoded in the models.
+The App suggests weights, reps and deloads ("Suggestions") by applying fixed rules to the sets you log, the routine settings you choose and the loads you have used before. Forge does not use AI to generate Suggestions or any other content.
 
-### 5.1 Known limitations of AI Output
+### 5.1 Known limitations of Suggestions
 
-You acknowledge and agree that AI Output:
+You acknowledge and agree that Suggestions:
 
-- **May contain errors or inaccuracies.** Large language models can produce plausible-sounding but factually wrong content. This is widely known and inherent to the technology.
-- **May "hallucinate."** AI Output may include exercise names, technique cues, or recommendations that are not real, not safe, or not appropriate for your situation.
-- **Has no awareness of medical conditions, medications, or injuries you have not disclosed.** AI Output is based solely on the inputs you give it.
-- **May reflect training-data bias** toward certain populations, training modalities, or body types. AI Output may not be suitable for older lifters, lifters with disabilities, pregnant or postpartum lifters, or lifters with specific conditions.
-- **Cannot replace coach observation.** AI Output cannot watch you lift, evaluate your form, detect compensations, or judge whether a given weight is genuinely safe for you on a given day.
-- **Has limited reasoning** about complex situations such as multi-injury programming, advanced periodization, or competition prep.
-- **Has no emotional or motivational context.** AI Output cannot tell when you are exhausted, stressed, recovering from an illness, or in a poor headspace to push.
-- **Depends entirely on the quality of your inputs.** Inaccurate goals, experience self-rating, or injury disclosure will produce inaccurate AI Output.
+- **May not suit you.** They follow general progression rules and the numbers you log; they cannot judge whether a given weight is genuinely safe for you on a given day.
+- **Have no awareness of medical conditions, medications, injuries, pain or fatigue** unless they show up in the sets you log.
+- **Cannot replace coach observation.** The App cannot watch you lift, evaluate your form, or detect compensations.
+- **Depend entirely on the accuracy of what you log.** Wrong weights, reps or units produce wrong Suggestions.
 
-### 5.2 You are responsible for judging AI Output
+### 5.2 You are responsible for judging Suggestions
 
-**AI OUTPUT IS A TOOL AND A SUPPLEMENT, NOT A REPLACEMENT FOR INDEPENDENT JUDGMENT OR PROFESSIONAL ADVICE.** You are solely responsible for deciding whether to follow any AI suggestion. You agree to:
+**SUGGESTIONS ARE A TOOL, NOT A REPLACEMENT FOR INDEPENDENT JUDGMENT OR PROFESSIONAL ADVICE.** You are solely responsible for deciding whether to follow any Suggestion. You agree to:
 
-- Review every AI Output critically before acting on it.
-- Skip, modify, or reduce any suggestion that doesn't feel right for your body, equipment, or experience level on a given day.
+- Review every Suggestion critically before acting on it.
+- Skip, modify, or reduce any Suggestion that doesn't feel right for your body, equipment, or experience level on a given day.
 - Consult a qualified strength coach, physical therapist, or healthcare provider for any decision that warrants professional input.
-- Treat AI Output as an *informational starting point*, not as binding instruction.
 
-### 5.3 Liability for AI Output
+### 5.3 Liability for Suggestions
 
-Subject to §11 (Limitation of Liability) and to the carve-outs we cannot exclude under Thai law (gross negligence, willful misconduct, bodily injury caused by our negligence, and non-derogable consumer-protection statutes), **we bear no additional liability arising from your use of AI Output beyond the cap set in §11.** The fact that AI Output is generated by third-party models we do not train or control is part of the bargain you accept when subscribing to Forge Pro.
+Subject to §11 (Limitation of Liability) and to the carve-outs we cannot exclude under Thai law (gross negligence, willful misconduct, bodily injury caused by our negligence, and non-derogable consumer-protection statutes), **we bear no additional liability arising from your use of Suggestions beyond the cap set in §11.**
 
 ### 5.4 Human review on request
 
-If you believe a specific AI Output materially misled you, you may request human review of that suggestion by emailing supiphatk17@gmail.com. We will respond within 30 days with our assessment and, where appropriate, a corrected suggestion or a refund of the affected billing period at our discretion. This is in addition to your statutory rights under §15.
+If you believe a specific Suggestion materially misled you, you may request human review of that Suggestion by emailing supiphatk17@gmail.com. We will respond within 30 days with our assessment and, where appropriate, a corrected Suggestion, or help with requesting a refund from Apple, which handles all App Store payments. This is in addition to your statutory rights under §15.
 
 ---
 
 ## 6. Personal Data and the PDPA
 
-Personal data processed by the App is governed by our [Privacy Policy](https://supiphat.github.io/forge-legal/privacy.html), which is incorporated into these Terms by reference and complies with the **Personal Data Protection Act B.E. 2562 (2019)**. Please read it before using AI features.
+Personal data processed by the App is governed by our [Privacy Policy](https://supiphat.github.io/forge-legal/privacy.html), which is incorporated into these Terms by reference and complies with the **Personal Data Protection Act B.E. 2562 (2019)**. Please read it before using the App.
 
 ---
 
@@ -131,18 +126,16 @@ Personal data processed by the App is governed by our [Privacy Policy](https://s
 You agree not to use the App to:
 
 - Generate or distribute content that violates Thai law, including the **Computer Crime Act B.E. 2550 (2007)** (which prohibits unauthorized access, data interference, system interference, and dissemination of false data).
-- Attempt to extract, reverse-engineer, or replicate the AI models behind the App.
-- Use the AI features to generate programs for resale or redistribution as a service.
 - Interfere with the App's operation, our backend infrastructure, or other users' access.
 - Engage in any activity that could constitute a criminal offence under Thai or applicable foreign law.
 
-We reserve the right to disable AI features or terminate access for accounts that violate these Terms. Severe or criminal violations may be reported to the **Royal Thai Police Cyber Crime Investigation Bureau (CCIB)** or other appropriate authorities.
+We reserve the right to terminate access for users who violate these Terms. Severe or criminal violations may be reported to the **Royal Thai Police Cyber Crime Investigation Bureau (CCIB)** or other appropriate authorities.
 
 ---
 
 ## 8. Intellectual Property
 
-The App, its source code, design, content, and trademarks are owned by Supiphat Kasetrsuwan or our licensors and are protected under the **Copyright Act B.E. 2537 (1994)** and the **Trademark Act B.E. 2534 (1991)**. You receive no rights in the App except the limited license described in §3. AI-generated outputs are not copyrightable in most jurisdictions; you may use them for your personal training without restriction.
+The App, its source code, design, content, and trademarks are owned by Supiphat Kasetrsuwan or our licensors and are protected under the **Copyright Act B.E. 2537 (1994)** and the **Trademark Act B.E. 2534 (1991)**. You receive no rights in the App except the limited license described in §3.
 
 ---
 
@@ -150,9 +143,8 @@ The App, its source code, design, content, and trademarks are owned by Supiphat 
 
 The App relies on services we do not control:
 
-- **Apple** (App Store, StoreKit, HealthKit) — governed by Apple's terms.
-- **Supabase** — backend hosting and authentication.
-- **Anthropic** — AI provider.
+- **Apple** (App Store, StoreKit, HealthKit, iCloud) — governed by Apple's terms. If you use iCloud sync, your data is stored in your own iCloud account under your agreement with Apple.
+- **Supabase** — backend hosting for the anonymous records left by Forge 1.x's AI features (see the Privacy Policy).
 
 We are not responsible for outages, data loss, or behavior of these third-party services beyond reasonable diligence in selecting them.
 
@@ -165,7 +157,8 @@ We are not responsible for outages, data loss, or behavior of these third-party 
 We do not warrant that:
 
 - The App will be uninterrupted, error-free, or free of harmful components.
-- AI suggestions will be accurate, suitable, or safe for your individual situation.
+- Suggestions will be accurate, suitable, or safe for your individual situation.
+- iCloud sync, which Apple provides, will be available or uninterrupted.
 - Use of the App will achieve any particular fitness, health, or training outcome.
 
 Where Thai consumer-protection law gives you statutory warranties or rights that cannot be excluded by contract, those rights apply regardless of this section.
@@ -196,7 +189,7 @@ This indemnity does not extend to claims arising from our gross negligence or wi
 
 ## 13. Termination
 
-We may suspend or terminate your access to the App or to AI features at any time if you violate these Terms or misuse the App. You may stop using the App at any time by uninstalling it.
+We may suspend or terminate your access to the App at any time if you violate these Terms or misuse the App. You may stop using the App at any time by uninstalling it.
 
 Provisions that by their nature should survive termination (disclaimers, limitations of liability, indemnification, dispute resolution) survive.
 
@@ -316,7 +309,7 @@ If you are domiciled in a Canadian province or territory other than Quebec, the 
 
 **Forum.** You may bring consumer-protection proceedings in the court of your province of residence.
 
-**Quebec is excluded** from Forge's territory list for v1.0 (Charter of the French Language requirements + Law 25 are not yet supported). If you reside in Quebec, Forge is not currently offered to you and any account created in error will be deleted on request.
+**Quebec is excluded** from Forge's territory list (Charter of the French Language requirements + Law 25 are not yet supported). If you reside in Quebec, Forge is not currently offered to you. Forge has no accounts; you can erase your data at any time with Profile → Delete all data.
 
 ### 19.5 Australia
 
@@ -346,8 +339,8 @@ If you are a South African resident, the **Protection of Personal Information Ac
 
 ### 19.9 Territories Not Listed
 
-Forge is currently distributed only in the territories listed in `docs/MARKETS.md` §2. If you are accessing Forge from a territory not in that list, your access may be unauthorized and you accept all consequences of that unauthorized access including the application of these Terms under their default governing-law and forum clauses (§16).
+Forge is currently distributed only in the App Store territories where it is listed. If you are accessing Forge from a territory where it is not listed, your access may be unauthorized and you accept all consequences of that unauthorized access including the application of these Terms under their default governing-law and forum clauses (§16).
 
 ---
 
-*These Terms are provided grounded in Thai law (PDPA, Consumer Protection Act, Civil and Commercial Code, Computer Crime Act, Electronic Transactions Act, Unfair Contract Terms Act) with region-specific addenda for the EU/EEA/UK, USA, Canada, Australia, New Zealand, Singapore, and South Africa. They are NOT legal advice. Have a Thai-qualified lawyer (and ideally counsel in any region of material exposure) review before publishing — especially the §11 liability cap, §16 forum and arbitration clauses, the §17 language clause, and the §19 regional addenda.*
+*These Terms are grounded in Thai law (PDPA, Consumer Protection Act, Civil and Commercial Code, Computer Crime Act, Electronic Transactions Act, Unfair Contract Terms Act), with region-specific addenda for the EU/EEA/UK, USA, Canada, Australia, New Zealand, Singapore, and South Africa (§19).*
