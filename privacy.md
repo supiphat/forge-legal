@@ -1,7 +1,7 @@
 # Privacy Policy — Forge
 
-**Last updated:** 2026-10-08
-**Effective:** 2026-10-08
+**Last updated:** 2026-11-16
+**Effective:** 2026-11-16
 
 This Privacy Policy describes how Forge ("the App", "we", "us") handles information when you use our iOS application. Forge is operated as a sole proprietorship by Supiphat Kasetrsuwan, located in Thailand. We've built the App to do as little as possible with your data. Read on to see what that means.
 
@@ -52,7 +52,8 @@ For users in Thailand, this notice is provided in accordance with the **Personal
 - **Profile and settings:** an optional display name, units (kg or lb), progression settings, and your Terms / Privacy acceptance log.
 - **Body weight (this iPhone only):** the body weight you type on Profile, and the body weight recorded when you finish a workout on this iPhone (used for bodyweight exercises). These stay on this device and are never synced to iCloud.
 - **Data from Forge 1.x:** if you used an earlier version, its data (program, logged sessions, onboarding answers such as goal, experience, equipment, training days and injuries, weekly check-in answers, and coach-card history) stays on this iPhone in its original storage. When you update, its workouts, program days (as routines), profile basics (units and experience level) and acceptance log are copied into the records above, and its body weight becomes this iPhone's body weight. Its biological-sex value, if Forge 1.x read one, is not copied. It is erased by Delete all data or by uninstalling the App.
-- **Health data (HealthKit):** if you grant HealthKit permission, the App (a) writes a workout record (strength-training type, start and end time, and total volume lifted) to your Apple Health when you finish a workout and (b) reads your body-mass entries to count bodyweight exercises (such as pull-ups) in volume and estimated one-rep maxes, using the entry nearest each workout's date. Each is covered by its own permission in the iOS HealthKit consent sheet — you can grant or deny each independently. The App does not read any other Health categories (HRV, sleep, heart rate, nutrition, biological sex, etc.). Body-mass readings are held in memory on this iPhone while the App runs; Forge does not keep its own copy of your Health history, only the per-workout body weight described above, on this iPhone. Apple Health keeps the readings, and syncs them across your devices itself if you use Health in iCloud. Forge never puts health data in its iCloud sync (§2.2) and never sends it to us or to any third party.
+- **Health data (HealthKit):** if you grant HealthKit permission, the App (a) writes a workout record (strength-training type, start and end time, total volume lifted, and Forge's own identifier for that workout) to your Apple Health when you finish a workout, (b) removes that record from Apple Health when you delete the workout in Forge, where it can identify it, and (c) reads your body-mass entries to count bodyweight exercises (such as pull-ups) in volume and estimated one-rep maxes, using the entry nearest each workout's date. Writing and reading are each covered by their own permission in the iOS HealthKit consent sheet — you can grant or deny each independently; removing a record uses the write permission. To find the record to remove, the App looks only at workouts Forge itself wrote to Apple Health; it never reads or deletes workouts written by other apps. The App does not read any other Health categories (HRV, sleep, heart rate, nutrition, biological sex, etc.). Body-mass readings are held in memory on this iPhone while the App runs; Forge does not keep its own copy of your Health history, only the per-workout body weight described above, on this iPhone. Apple Health keeps the readings, and syncs them across your devices itself if you use Health in iCloud. Forge never puts health data in its iCloud sync (§2.2) and never sends it to us or to any third party.
+- **Rest alerts and Live Activity:** the "rest over" alert (if you allow notifications) is scheduled on this iPhone, and a running workout's rest timer and next set show in a Live Activity on your Lock Screen. Both are created on your iPhone; nothing is sent through any server.
 
 All of the above is stored on your device: in the App's local [SwiftData](https://developer.apple.com/documentation/swiftdata) database, except body weight, which is kept in the App's local settings on this iPhone.
 
@@ -69,18 +70,18 @@ If your iPhone is signed in to iCloud and iCloud is on for Forge, the App syncs 
 
 ### 2.3 Our Backend (Supabase) — Forge 1.x Records Only
 
-Forge 2.0 has no AI features and does not contact our backend during normal use. Our backend, hosted on Supabase in the Oceania (Sydney, Australia) region, holds records only for installs that used the AI features of Forge 1.x:
+Forge 2.0 and later have no AI features and do not contact our backend during normal use. Our backend, hosted on Supabase in the Oceania (Sydney, Australia) region, holds records only for installs that used the AI features of Forge 1.x:
 
 - **Anonymous user identifier:** a UUID created per install when it first used an AI feature. Not linked to your name, email, Apple ID, or any other identity.
 - **Rate-limit rows:** `(user_id, endpoint, timestamp)` only — no workout content. Retained for 30 days, then automatically deleted.
 
 When you use **Delete all data** on an iPhone that still holds a Forge 1.x session, the App asks our backend to delete that identifier and its rate-limit rows. On an iPhone without one, the App makes no backend call.
 
-Forge 1.x sent anonymised workout context through this backend to an AI provider for its AI features. Forge 2.0 sends nothing to any AI provider.
+Forge 1.x sent anonymised workout context through this backend to an AI provider for its AI features. Forge 2.0 and later send nothing to any AI provider.
 
 ### 2.4 Subscription Information (Processed by Apple)
 
-When you subscribe, payment is processed by [Apple](https://www.apple.com/legal/privacy/) via StoreKit. The App checks your subscription with Apple on your iPhone and keeps only your current tier (Free or Pro) and any trial dates, on this iPhone, so Pro works offline. None of this is sent to us.
+When you subscribe, payment is processed by [Apple](https://www.apple.com/legal/privacy/) via StoreKit. The App checks your subscription with Apple on your iPhone and keeps only your current tier (Free or Pro), any trial dates and when it last checked, on this iPhone, so Pro works offline. None of this is sent to us.
 
 We never see your name, billing address, card number, or Apple ID.
 
@@ -105,7 +106,7 @@ Under PDPA §24, we rely on the following lawful bases:
 | Syncing your data to your private iCloud database (§2.2) | §24(3) **performance of a contract** — the sync feature of the App; you control it through your iCloud settings |
 | Keeping, and deleting on request, the anonymous Forge 1.x backend records (§2.3) | §24(5) **legitimate interest** — completing the rate-limit retention of the former AI service and honouring deletion requests |
 | Processing StoreKit subscription receipts to grant tier access | §24(3) **performance of a contract** |
-| Writing workout records to your Apple Health | §24(1) **consent** — you grant HealthKit permission via the iOS system prompt |
+| Writing workout records to your Apple Health, and removing one when you delete that workout in Forge | §24(1) **consent** — you grant HealthKit permission via the iOS system prompt |
 | Reading your HealthKit body mass to count bodyweight exercises (never sent to us) | §24(1) **consent** — you grant the read permission via the iOS HealthKit consent sheet |
 
 We do not rely on consent for processing of the anonymous data described in §2.3 because it is not "personal data" under PDPA §6 — there is no identifiable natural person attached to the anonymous user ID.
@@ -156,7 +157,8 @@ We do not embed advertising SDKs, analytics SDKs, or third-party trackers.
 - **On-device data** is retained until you use Delete all data or uninstall the App.
 - **iCloud data** (§2.2) is retained in your iCloud account until you use Delete all data or remove it in your iCloud settings. Uninstalling the App does not remove it.
 - **Forge 1.x server-side rate-limit rows:** retained for 30 days, then automatically deleted.
-- **Forge 1.x anonymous identifier:** retained until it is deleted through Delete all data on the iPhone that created it, or on request.
+- **Forge 1.x anonymous identifier:** retained until it is deleted through Delete all data on the iPhone that created it.
+- **Workout records in Apple Health** (§2.1) are kept by Apple Health. Deleting a workout in Forge removes its Apple Health record where the App can identify it; Delete all data and uninstalling the App do not remove them. Manage them in the Health app.
 
 To delete the anonymous Forge 1.x records, use Delete all data on the iPhone that used Forge 1.x's AI features. The identifier is not shown in the App and is not linked to your name or email, so we cannot find it from an email request alone; the rate-limit rows expire on their own after 30 days. Questions: supiphatk17@gmail.com.
 
@@ -179,7 +181,7 @@ No system is perfectly secure. If you discover a vulnerability, please report it
 
 If you are a data subject in Thailand, you have the following rights, exercisable by emailing supiphatk17@gmail.com:
 
-- **Access (PDPA §30)** — request a copy of any data we hold linked to your anonymous user ID. Your workout data is not held by us; Profile → Export data gives you all of it.
+- **Access (PDPA §30)** — ask what data we hold about you. We hold none of your workout data; Profile → Export data gives you all of it. The only records we hold are the anonymous Forge 1.x records in §2.3, which we cannot link to you from a request.
 - **Rectification (§35)** — correct inaccurate data.
 - **Erasure (§33)** — request deletion of personal data we hold.
 - **Restriction (§34)** — request that we limit processing.
@@ -235,9 +237,9 @@ If you are in the EEA, the United Kingdom, or Switzerland, the **General Data Pr
 |---|---|---|
 | Workout logging and overload calculations | 6(1)(b) — necessary for performance of the contract (our Terms of Service) you accept when you start using the App | Core service |
 | iCloud sync to your private iCloud database | 6(1)(b) — performance of contract | Stored by Apple; we cannot access it (§2.2) |
-| Forge 1.x rate-limit rows (anonymous user ID + endpoint + timestamp), kept until expiry or deletion | 6(1)(f) — legitimate interest (completing the former anti-abuse retention, honouring deletion) | No new rows are created by Forge 2.0 |
+| Forge 1.x rate-limit rows (anonymous user ID + endpoint + timestamp), kept until expiry or deletion | 6(1)(f) — legitimate interest (completing the former anti-abuse retention, honouring deletion) | No new rows are created by Forge 2.0 or later |
 | HealthKit read (body mass) — never sent to us | 6(1)(a) — your explicit consent given via the iOS HealthKit permission prompt | Consent can be withdrawn anytime in iOS Settings → Privacy & Security → Health |
-| HealthKit write (finished workouts) | 6(1)(a) — your consent given via the iOS HealthKit permission prompt | Withdraw the same way |
+| HealthKit write (finished workouts, and removing one when you delete it in Forge) | 6(1)(a) — your consent given via the iOS HealthKit permission prompt | Withdraw the same way |
 | Subscription/payment data (handled by Apple) | 6(1)(b) — performance of contract | Apple is the merchant of record |
 
 **Special-category data (Article 9).** Body-weight readings via HealthKit (and a biological-sex value read by Forge 1.x, if any) may, in combination with other health context, constitute "data concerning health." They stay on your device and in Apple Health, are never part of Forge's iCloud sync, and are never transmitted to us or to any third party. We process such data only on the basis of Art 9(2)(a) — your explicit consent, given through the iOS HealthKit permission prompt — and only for the in-app fitness purposes described in §5.
@@ -255,7 +257,7 @@ If you are in the EEA, the United Kingdom, or Switzerland, the **General Data Pr
 
 **Automated decision-making (Article 22).** Forge's weight and rep suggestions are calculated on your device by fixed rules from the sets you log. They are *suggestions*, not binding decisions. They do not produce legal effects, do not affect your access to goods or services, and they require your action (logging a set) to take effect. You may still contest any suggestion and express your view by emailing supiphatk17@gmail.com — we will review it within 30 days.
 
-**International data transfers.** Forge 2.0 does not transfer your workout data to us or to any third party. Data in your private iCloud database is stored by Apple under your agreement with Apple (§2.2). The anonymous Forge 1.x records described in §2.3 are held by Supabase in Australia. We do not transfer special-category data internationally.
+**International data transfers.** Forge 2.0 and later do not transfer your workout data to us or to any third party. Data in your private iCloud database is stored by Apple under your agreement with Apple (§2.2). The anonymous Forge 1.x records described in §2.3 are held by Supabase in Australia. We do not transfer special-category data internationally.
 
 **Right to lodge a complaint (Article 77).** If you believe our processing violates GDPR or UK GDPR, you may lodge a complaint with:
 
@@ -275,8 +277,8 @@ If you are a California resident, the **California Consumer Privacy Act**, as am
 
 | CCPA category | What we collect | Purpose |
 |---|---|---|
-| Identifiers | Anonymous Supabase user ID (UUID, per-install), only for installs that used Forge 1.x's AI features | Former rate-limit enforcement; deletion on request |
-| Commercial information | Subscription status (Free or Pro, trial dates), checked on your device via StoreKit and kept there; not sent to us | Apple is merchant of record |
+| Identifiers | Anonymous Supabase user ID (UUID, per-install), only for installs that used Forge 1.x's AI features | Former rate-limit enforcement; deleted through Delete all data |
+| Commercial information | Subscription status (Free or Pro, trial dates, last check time), checked on your device via StoreKit and kept there; not sent to us | Apple is merchant of record |
 | Internet or other electronic network activity | Forge 1.x rate-limit logs (endpoint, timestamp), deleted after 30 days | Former anti-abuse |
 | Geolocation | None collected | — |
 | Sensory information | None collected | — |
@@ -302,7 +304,7 @@ If you are a California resident, the **California Consumer Privacy Act**, as am
 - **§1798.121** — Right to limit use of sensitive personal information (we will limit upon request).
 - **§1798.135** — No "Do Not Sell or Share" link required (we don't sell or share).
 
-**Verifying a request.** We verify you via your anonymous Supabase user ID, your subscription transaction ID (if applicable), and a confirmatory reply to the email address you contact us from.
+**Verifying a request.** We verify you via a confirmatory reply to the email address you contact us from and, if applicable, your subscription transaction ID. We hold no data linked to your name or email, and the anonymous Forge 1.x identifier is not shown in the App, so we cannot locate it from a request; use Delete all data on that iPhone instead.
 
 **Response time.** 45 days from receipt; we will inform you in writing if we need an additional 45 days under §1798.130(a)(2).
 

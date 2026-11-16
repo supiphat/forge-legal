@@ -1,7 +1,7 @@
 # Terms of Service — Forge
 
-**Last updated:** 2026-10-08
-**Effective:** 2026-10-08
+**Last updated:** 2026-11-16
+**Effective:** 2026-11-16
 
 These Terms of Service ("Terms") govern your use of Forge ("the App"), an iOS application provided by **Supiphat Kasetrsuwan**, sole proprietor, operating from Thailand ("we", "us"). By installing or using the App, you agree to these Terms. If you don't agree, don't use the App. You must be 18 or older to use the App.
 
@@ -13,7 +13,7 @@ These Terms are governed by the laws of the **Kingdom of Thailand** and form a l
 
 **FORGE IS A FITNESS TRACKING TOOL, NOT A MEDICAL DEVICE OR HEALTHCARE SERVICE.**
 
-The App provides workout logging and weight and rep suggestions calculated from the sets you log. It does not provide medical advice, diagnosis, or treatment. The App is not registered as a medical device with the **Thai Food and Drug Administration (อย.)** or any other regulatory body, and is not intended to be one.
+The App provides workout logging, progress charts and, with Forge Pro, weight and rep suggestions calculated from the sets you log. It does not provide medical advice, diagnosis, or treatment. The App is not registered as a medical device with the **Thai Food and Drug Administration (อย.)** or any other regulatory body, and is not intended to be one.
 
 **Before starting any new exercise program, including any routine, template or suggestion provided by the App, consult a qualified healthcare professional**, especially if you:
 
@@ -54,17 +54,17 @@ You may not:
 - Remove or alter any proprietary notices.
 - Use the App to violate any law or regulation, including the **Computer Crime Act B.E. 2550 (2007)**, the **Personal Data Protection Act B.E. 2562 (2019)**, or any third-party right.
 - Use automated means to interact with the App's backend.
-- Attempt to circumvent rate limits, paywall gating, subscription enforcement, or any access control. Such circumvention may also constitute an offence under §7 of the Computer Crime Act.
+- Attempt to circumvent paywall gating, subscription enforcement, or any access control. Such circumvention may also constitute an offence under §7 of the Computer Crime Act.
 
 ---
 
 ## 4. Subscriptions and Free Trial
 
 ### 4.1 Free Tier
-The App is free to install and use for core features: logging workouts, your workout history and personal records, routines and the built-in templates, custom exercises, the rest timer and plate breakdowns, the weekly sets-per-muscle map on Home, iCloud sync, and data export and deletion. On the free tier, each set is prefilled with the numbers you logged last time.
+The App is free to install and use for core features: logging workouts, your workout history (including deleting a workout) and personal records, routines and the built-in templates, custom exercises, the rest timer (with its rest alert and Lock Screen Live Activity) and plate breakdowns, the weekly sets-per-muscle map on Home, progress charts (exercise charts with estimated one-rep-max trends, lift trends, and each muscle's weekly sets with the exercises they came from), iCloud sync, and data export and deletion. On the free tier, each set is prefilled with the numbers you logged last time.
 
 ### 4.2 Paid Tier
-- **Forge Pro** ($9.99/month or $59.99/year): unlocks weight and rep Suggestions for your next session, each with the reason it was given; planned deload weeks and alerts when a lift has stalled; and muscle and strength analytics (which exercises each muscle's weekly sets came from, and estimated one-rep-max trends for each exercise).
+- **Forge Pro** ($9.99/month or $59.99/year): unlocks weight and rep Suggestions for your next set and next session, each with the reason it was given; planned deload weeks; a note in the App when a lift has stalled, with a rep range or exercise swap to try; and exercises to add when a muscle falls short of its weekly sets.
 
 Prices are listed in US Dollars. Apple charges in your local currency (Thai Baht for Thai users) at Apple's published exchange rate. The price displayed in-app at the time of purchase is authoritative.
 
@@ -86,7 +86,7 @@ Switching between monthly and annual Pro is handled by Apple through your subscr
 
 ## 5. Training Suggestions
 
-The App suggests weights, reps and deloads ("Suggestions") by applying fixed rules to the sets you log, the routine settings you choose and the loads you have used before. Forge does not use AI to generate Suggestions or any other content.
+With Forge Pro, the App suggests weights, reps, deload weeks and exercise changes (a rep range or swap for a stalled lift, exercises to add for a muscle short of its weekly sets) ("Suggestions") by applying fixed rules to the sets you log, the routine settings you choose and the loads you have used before. Forge does not use AI to generate Suggestions or any other content.
 
 ### 5.1 Known limitations of Suggestions
 
